@@ -21,7 +21,7 @@ let isEqual= a==b;
 let isStrictEqual= a===b;
 // Example: let isNotEqual;
 // Use '!=' to compare 'a' and 'b' for inequality.
-let isNotequal= a!=b;
+let isNotEqual= a!=b;
 // Example: let isStrictNotEqual;
 // Use '!==' to compare 'a' and 'b' for strict inequality.
 let isStrictNotEqual= a!==b;
@@ -34,7 +34,7 @@ let add=a+b;
 let sub=a-b;
 // Example: let multiply;
 // Multiply 'a' and 'b'.
-let muktiply=a*b
+let multiply=a*b
 // Example: let power; use ** as the operator
 // Raise 'a' to the power of 'b'.
 let power=a**b;
@@ -57,10 +57,10 @@ let isLessOrEqual=a<=b;
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-let andResult=a&&b;
+let andResult=(a>5)&&(b>5);
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
-let orResult=a||b;
+let orResult=(a>5)||(b>5);
 //
 // Do not edit below this line doing so will break the project, this code will display the values on the page
 //
